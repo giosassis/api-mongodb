@@ -1,0 +1,12 @@
+### Acessando via get
+GET http://localhost:4000/subscribers
+### Encerrando 
+
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+	"userName": "Giovana Assis",
+	"userChannel": "Udemy"
+}
+
